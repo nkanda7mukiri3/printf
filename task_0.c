@@ -32,6 +32,7 @@ void handle_prcnt_and_char(char a, int *i, va_list list)
 	else if (a == 'c')
 	{
 		char c = va_arg(list, int);
+
 		putchar(c);
 		(*i)++;
 	}
